@@ -41,3 +41,12 @@ ul{
     font-weight: bold;
   }
 }
+
+.registrarion-form{
+  &__submit{
+    cursor: pointer;
+    &__hover{
+      text-decoration: underline;
+    }
+  }
+}
