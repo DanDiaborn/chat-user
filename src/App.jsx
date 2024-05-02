@@ -26,7 +26,7 @@ function App() {
   }
 
   useEffect(() => {
-    setsocket(io('http://localhost:3000'));
+    setsocket(io('https://chat-test-server.onrender.com'));
   }, [])
 
   return <div className="user-chat__wrapper">
